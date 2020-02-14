@@ -22,7 +22,7 @@
         </nav>
     </header>
     <div id="main">
-            <div id="headline">
+            <div id="headline" class="text-white">
                 <div>
                     <h1>Movies</h1>
                 </div>
@@ -35,7 +35,9 @@
             <script>
                 for (var i = 0;i < movies.length; i++)
                 {
-                document.writeln("<div class='col-lg-5 col-md-5 col-sm-5 col-5 m-1'><div class='bg-dark'><div class='cols' align='center'><div class='description'><div class='picture' width='50%'>" + movies[i].photo + "</div>" + "<div class='colorFont'>" + movies[i].movieName + "<br>" +movies[i].description+"</div><div class='like-button'><button>Like<img class='thumbup' src='Images/thumbup.png'alt='thumbup'></button><span class='count'> " + movies[i].likes +"</span></div></div></div></div></div>");
+                document.writeln(
+                    "<div class='col-lg-5 col-md-5 col-sm-5 col-5 m-1'><div class='bg-dark'><div class='cols' align='center'><div class='description'><div class='picture' width='50%'>" + movies[i].photo + "</div>" + "<div class='colorFont'>" + movies[i].movieName + "<br>" +movies[i].description+"</div><div class='like-button'><button>Like<img class='thumbup' src='Images/thumbup.png'alt='thumbup'></button><span class='count'> " + movies[i].likes +"</span></div></div></div></div></div>"
+                    );
                 };
             </script>
         </div>
