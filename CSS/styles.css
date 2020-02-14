@@ -7,28 +7,32 @@ header {
     border-radius: 10px;
     height: 10%;
 }
+#logoTop {
+    padding: 1rem;
+}
+.nav-link {
+    font-size: 200%;
+    font-weight: bold;
+}
 #main {
     background-color: #1D2329;
 }
 #headline {
     background-color: #1D2329;
-    display: flex;
+    padding: 1rem 0 3rem;
 }
 .col-lg-5 {
     background-color: #181818;
+}
+.col-12 {
+    margin: 0;
+    padding: 1rem;
 }
 .lightgray {
     background-color: lightgray;
 }
 footer {
     background-color: #000000;
-}
-.cols {
-    background-color: #181818;
-    padding: 0.5rem;
-}
-.colorFont {
-    color: white;
 }
 button {
     background-color: #181818;
@@ -51,9 +55,13 @@ button {
 }
 .description {
     text-align: left;
-    column-count: 2;
     font-size: 100%;
+    background-color: #181818;
 }
 .like-button {
-    margin: 0;
+    
 }
+#logoBottom {
+    padding: 3rem;
+}
+
